@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BODEGA">
+    <Key>
+      <PropertyRef Name="BOD_COD" />
+    </Key>
+    <Property Name="BOD_COD" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="BOD_NOMBRE" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CLIENTE">
+    <Key>
+      <PropertyRef Name="CLI_CEDULA" />
+    </Key>
+    <Property Name="CLI_CEDULA" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="CLI_NOMBRE" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_APELLIDO" Type="varchar" MaxLength="50" />
+    <Property Name="CLI_DIRECCION" Type="varchar" MaxLength="150" />
+    <Property Name="CLI_CORREO" Type="varchar" MaxLength="100" />
+    <Property Name="CLI_TELEFONO" Type="varchar" MaxLength="10" />
+    <Property Name="CLI_CONTRASENA" Type="varchar" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="FACTURA">
+    <Key>
+      <PropertyRef Name="FAC_COD" />
+    </Key>
+    <Property Name="FAC_COD" Type="varchar" MaxLength="36" Nullable="false" />
+    <Property Name="CLI_CEDULA" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="VEN_CEDULA" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="FAC_FECHA" Type="datetime" />
+    <Property Name="FAC_ESTADO" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PRODUCTO">
+    <Key>
+      <PropertyRef Name="PROD_CODIGO" />
+    </Key>
+    <Property Name="PROD_CODIGO" Type="varchar" MaxLength="14" Nullable="false" />
+    <Property Name="PROD_NOMBRE" Type="varchar" MaxLength="50" />
+    <Property Name="PROD_TIPO" Type="varchar" MaxLength="15" />
+    <Property Name="PROD_MARCA" Type="varchar" MaxLength="20" />
+    <Property Name="PROD_CADUCIDAD" Type="datetime" />
+    <Property Name="PROD_PRECIOVEN" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="PROD_PRECIOCOM" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="PROD_IMAGEN" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="PRODUCTO_BODEGA">
+    <Key>
+      <PropertyRef Name="PROD_CODIGO" />
+      <PropertyRef Name="BOD_COD" />
+    </Key>
+    <Property Name="PROD_CODIGO" Type="varchar" MaxLength="14" Nullable="false" />
+    <Property Name="BOD_COD" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="PRBO_CANTIDAD" Type="int" />
+  </EntityType>
+  <EntityType Name="PRODUCTO_FACTURA">
+    <Key>
+      <PropertyRef Name="PROD_CODIGO" />
+      <PropertyRef Name="FAC_COD" />
+    </Key>
+    <Property Name="PROD_CODIGO" Type="varchar" MaxLength="14" Nullable="false" />
+    <Property Name="FAC_COD" Type="varchar" MaxLength="36" Nullable="false" />
+    <Property Name="FP_CANTIDAD" Type="int" />
+    <Property Name="FP_PRECIO" Type="decimal" Precision="8" Scale="2" />
+  </EntityType>
+  <EntityType Name="PRODUCTO_PROVEEDOR">
+    <Key>
+      <PropertyRef Name="PROD_CODIGO" />
+      <PropertyRef Name="PROV_COD" />
+    </Key>
+    <Property Name="PROD_CODIGO" Type="varchar" MaxLength="14" Nullable="false" />
+    <Property Name="PROV_COD" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="OBSERVACIONES" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="PROVEEDOR">
+    <Key>
+      <PropertyRef Name="PROV_COD" />
+    </Key>
+    <Property Name="PROV_COD" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="PROV_NOMEMP" Type="varchar" MaxLength="70" />
+    <Property Name="PROV_TELEFONO" Type="varchar" MaxLength="10" />
+    <Property Name="PROV_DIRECCION" Type="varchar" MaxLength="150" />
+    <Property Name="PROV_CORREO" Type="varchar" MaxLength="100" />
+    <Property Name="PROV_VENDEDOR" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="VENDEDOR">
+    <Key>
+      <PropertyRef Name="VEN_CEDULA" />
+    </Key>
+    <Property Name="VEN_CEDULA" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="VEN_NOMBRE" Type="varchar" MaxLength="50" />
+    <Property Name="VEN_APELLIDO" Type="varchar" MaxLength="50" />
+    <Property Name="VEN_COMISION" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="VEN_TELEFONO" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_FACTURA_CLIENTE_T_CLIENTE">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="CLI_CEDULA" />
+      </Principal>
+      <Dependent Role="FACTURA">
+        <PropertyRef Name="CLI_CEDULA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FACTURA_VENDEDOR_VENDEDOR">
+    <End Role="VENDEDOR" Type="Self.VENDEDOR" Multiplicity="1" />
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VENDEDOR">
+        <PropertyRef Name="VEN_CEDULA" />
+      </Principal>
+      <Dependent Role="FACTURA">
+        <PropertyRef Name="VEN_CEDULA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_BODEGA_BODEGA">
+    <End Role="BODEGA" Type="Self.BODEGA" Multiplicity="1" />
+    <End Role="PRODUCTO_BODEGA" Type="Self.PRODUCTO_BODEGA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BODEGA">
+        <PropertyRef Name="BOD_COD" />
+      </Principal>
+      <Dependent Role="PRODUCTO_BODEGA">
+        <PropertyRef Name="BOD_COD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_BODEGA_ES_BODEGA">
+    <End Role="BODEGA" Type="Self.BODEGA" Multiplicity="1" />
+    <End Role="PRODUCTO_BODEGA" Type="Self.PRODUCTO_BODEGA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BODEGA">
+        <PropertyRef Name="BOD_COD" />
+      </Principal>
+      <Dependent Role="PRODUCTO_BODEGA">
+        <PropertyRef Name="BOD_COD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_BODEGA_PRODUCTO">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="PRODUCTO_BODEGA" Type="Self.PRODUCTO_BODEGA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Principal>
+      <Dependent Role="PRODUCTO_BODEGA">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_FACTURA_E_FACTURA">
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="1" />
+    <End Role="PRODUCTO_FACTURA" Type="Self.PRODUCTO_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURA">
+        <PropertyRef Name="FAC_COD" />
+      </Principal>
+      <Dependent Role="PRODUCTO_FACTURA">
+        <PropertyRef Name="FAC_COD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_FACTURA_PRODUCTO">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="PRODUCTO_FACTURA" Type="Self.PRODUCTO_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Principal>
+      <Dependent Role="PRODUCTO_FACTURA">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_PROVEEDOR_PRODUCTO">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="PRODUCTO_PROVEEDOR" Type="Self.PRODUCTO_PROVEEDOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Principal>
+      <Dependent Role="PRODUCTO_PROVEEDOR">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_PROVEEDOR_PROVEEDOR">
+    <End Role="PROVEEDOR" Type="Self.PROVEEDOR" Multiplicity="1" />
+    <End Role="PRODUCTO_PROVEEDOR" Type="Self.PRODUCTO_PROVEEDOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROVEEDOR">
+        <PropertyRef Name="PROV_COD" />
+      </Principal>
+      <Dependent Role="PRODUCTO_PROVEEDOR">
+        <PropertyRef Name="PROV_COD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="GetTopVendedorPorMes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Year" Type="int" Mode="In" />
+    <Parameter Name="Month" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Proc_Ganancia_Mensual" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Year" Type="int" Mode="In" />
+    <Parameter Name="Month" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Proc_Ingresos_Mes_Anio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Proc_Inventario_Total" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Proc_Productos_Caducar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Proc_ProductosVendidosPorFecha" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Year" Type="int" Mode="In" />
+    <Parameter Name="Month" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ProductosMasVendidos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ProductosMenosVendidos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ProveedoresConMasVentas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="BODEGA" EntityType="Self.BODEGA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CLIENTE" EntityType="Self.CLIENTE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FACTURA" EntityType="Self.FACTURA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUCTO" EntityType="Self.PRODUCTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUCTO_BODEGA" EntityType="Self.PRODUCTO_BODEGA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUCTO_FACTURA" EntityType="Self.PRODUCTO_FACTURA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUCTO_PROVEEDOR" EntityType="Self.PRODUCTO_PROVEEDOR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PROVEEDOR" EntityType="Self.PROVEEDOR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VENDEDOR" EntityType="Self.VENDEDOR" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_FACTURA_CLIENTE_T_CLIENTE" Association="Self.FK_FACTURA_CLIENTE_T_CLIENTE">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="FACTURA" EntitySet="FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FACTURA_VENDEDOR_VENDEDOR" Association="Self.FK_FACTURA_VENDEDOR_VENDEDOR">
+      <End Role="VENDEDOR" EntitySet="VENDEDOR" />
+      <End Role="FACTURA" EntitySet="FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_BODEGA_BODEGA" Association="Self.FK_PRODUCTO_BODEGA_BODEGA">
+      <End Role="BODEGA" EntitySet="BODEGA" />
+      <End Role="PRODUCTO_BODEGA" EntitySet="PRODUCTO_BODEGA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_BODEGA_ES_BODEGA" Association="Self.FK_PRODUCTO_BODEGA_ES_BODEGA">
+      <End Role="BODEGA" EntitySet="BODEGA" />
+      <End Role="PRODUCTO_BODEGA" EntitySet="PRODUCTO_BODEGA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_BODEGA_PRODUCTO" Association="Self.FK_PRODUCTO_BODEGA_PRODUCTO">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="PRODUCTO_BODEGA" EntitySet="PRODUCTO_BODEGA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_FACTURA_E_FACTURA" Association="Self.FK_PRODUCTO_FACTURA_E_FACTURA">
+      <End Role="FACTURA" EntitySet="FACTURA" />
+      <End Role="PRODUCTO_FACTURA" EntitySet="PRODUCTO_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_FACTURA_PRODUCTO" Association="Self.FK_PRODUCTO_FACTURA_PRODUCTO">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="PRODUCTO_FACTURA" EntitySet="PRODUCTO_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_PROVEEDOR_PRODUCTO" Association="Self.FK_PRODUCTO_PROVEEDOR_PRODUCTO">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="PRODUCTO_PROVEEDOR" EntitySet="PRODUCTO_PROVEEDOR" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_PROVEEDOR_PROVEEDOR" Association="Self.FK_PRODUCTO_PROVEEDOR_PROVEEDOR">
+      <End Role="PROVEEDOR" EntitySet="PROVEEDOR" />
+      <End Role="PRODUCTO_PROVEEDOR" EntitySet="PRODUCTO_PROVEEDOR" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

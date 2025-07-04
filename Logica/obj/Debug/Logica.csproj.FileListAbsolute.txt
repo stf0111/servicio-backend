@@ -1,0 +1,16 @@
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\Logica.dll.config
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\Logica.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\Logica.pdb
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\Acceso_Datos.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\Datos.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\Acceso_Datos.pdb
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\Acceso_Datos.dll.config
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\Datos.pdb
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\Datos.dll.config
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Debug\Logica.csproj.Up2Date
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Debug\Logica.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Debug\Logica.pdb

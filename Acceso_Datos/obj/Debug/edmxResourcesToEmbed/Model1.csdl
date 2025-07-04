@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BODEGA">
+    <Key>
+      <PropertyRef Name="BOD_COD" />
+    </Key>
+    <Property Name="BOD_COD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BOD_NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PRODUCTO_BODEGA" Relationship="Self.FK_PRODUCTO_BODEGA_BODEGA" FromRole="BODEGA" ToRole="PRODUCTO_BODEGA" />
+    <NavigationProperty Name="PRODUCTO_BODEGA1" Relationship="Self.FK_PRODUCTO_BODEGA_ES_BODEGA" FromRole="BODEGA" ToRole="PRODUCTO_BODEGA" />
+  </EntityType>
+  <EntityType Name="CLIENTE">
+    <Key>
+      <PropertyRef Name="CLI_CEDULA" />
+    </Key>
+    <Property Name="CLI_CEDULA" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLI_NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CLI_APELLIDO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CLI_DIRECCION" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="CLI_CORREO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CLI_TELEFONO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CLI_CONTRASENA" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="FACTURA" Relationship="Self.FK_FACTURA_CLIENTE_T_CLIENTE" FromRole="CLIENTE" ToRole="FACTURA" />
+  </EntityType>
+  <EntityType Name="FACTURA">
+    <Key>
+      <PropertyRef Name="FAC_COD" />
+    </Key>
+    <Property Name="FAC_COD" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLI_CEDULA" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VEN_CEDULA" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FAC_FECHA" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CLIENTE" Relationship="Self.FK_FACTURA_CLIENTE_T_CLIENTE" FromRole="FACTURA" ToRole="CLIENTE" />
+    <NavigationProperty Name="VENDEDOR" Relationship="Self.FK_FACTURA_VENDEDOR_VENDEDOR" FromRole="FACTURA" ToRole="VENDEDOR" />
+    <NavigationProperty Name="PRODUCTO_FACTURA" Relationship="Self.FK_PRODUCTO_FACTURA_E_FACTURA" FromRole="FACTURA" ToRole="PRODUCTO_FACTURA" />
+    <Property Name="FAC_ESTADO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PRODUCTO">
+    <Key>
+      <PropertyRef Name="PROD_CODIGO" />
+    </Key>
+    <Property Name="PROD_CODIGO" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PROD_NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PROD_TIPO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="PROD_MARCA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PROD_CADUCIDAD" Type="DateTime" Precision="3" />
+    <Property Name="PROD_PRECIOVEN" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="PROD_PRECIOCOM" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="PROD_IMAGEN" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PRODUCTO_BODEGA" Relationship="Self.FK_PRODUCTO_BODEGA_PRODUCTO" FromRole="PRODUCTO" ToRole="PRODUCTO_BODEGA" />
+    <NavigationProperty Name="PRODUCTO_FACTURA" Relationship="Self.FK_PRODUCTO_FACTURA_PRODUCTO" FromRole="PRODUCTO" ToRole="PRODUCTO_FACTURA" />
+    <NavigationProperty Name="PRODUCTO_PROVEEDOR" Relationship="Self.FK_PRODUCTO_PROVEEDOR_PRODUCTO" FromRole="PRODUCTO" ToRole="PRODUCTO_PROVEEDOR" />
+  </EntityType>
+  <EntityType Name="PRODUCTO_BODEGA">
+    <Key>
+      <PropertyRef Name="PROD_CODIGO" />
+      <PropertyRef Name="BOD_COD" />
+    </Key>
+    <Property Name="PROD_CODIGO" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BOD_COD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRBO_CANTIDAD" Type="Int32" />
+    <NavigationProperty Name="BODEGA" Relationship="Self.FK_PRODUCTO_BODEGA_BODEGA" FromRole="PRODUCTO_BODEGA" ToRole="BODEGA" />
+    <NavigationProperty Name="BODEGA1" Relationship="Self.FK_PRODUCTO_BODEGA_ES_BODEGA" FromRole="PRODUCTO_BODEGA" ToRole="BODEGA" />
+    <NavigationProperty Name="PRODUCTO" Relationship="Self.FK_PRODUCTO_BODEGA_PRODUCTO" FromRole="PRODUCTO_BODEGA" ToRole="PRODUCTO" />
+  </EntityType>
+  <EntityType Name="PRODUCTO_FACTURA">
+    <Key>
+      <PropertyRef Name="PROD_CODIGO" />
+      <PropertyRef Name="FAC_COD" />
+    </Key>
+    <Property Name="PROD_CODIGO" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FAC_COD" Type="String" MaxLength="36" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FP_CANTIDAD" Type="Int32" />
+    <Property Name="FP_PRECIO" Type="Decimal" Precision="8" Scale="2" />
+    <NavigationProperty Name="FACTURA" Relationship="Self.FK_PRODUCTO_FACTURA_E_FACTURA" FromRole="PRODUCTO_FACTURA" ToRole="FACTURA" />
+    <NavigationProperty Name="PRODUCTO" Relationship="Self.FK_PRODUCTO_FACTURA_PRODUCTO" FromRole="PRODUCTO_FACTURA" ToRole="PRODUCTO" />
+  </EntityType>
+  <EntityType Name="PRODUCTO_PROVEEDOR">
+    <Key>
+      <PropertyRef Name="PROD_CODIGO" />
+      <PropertyRef Name="PROV_COD" />
+    </Key>
+    <Property Name="PROD_CODIGO" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PROV_COD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OBSERVACIONES" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PRODUCTO" Relationship="Self.FK_PRODUCTO_PROVEEDOR_PRODUCTO" FromRole="PRODUCTO_PROVEEDOR" ToRole="PRODUCTO" />
+    <NavigationProperty Name="PROVEEDOR" Relationship="Self.FK_PRODUCTO_PROVEEDOR_PROVEEDOR" FromRole="PRODUCTO_PROVEEDOR" ToRole="PROVEEDOR" />
+  </EntityType>
+  <EntityType Name="PROVEEDOR">
+    <Key>
+      <PropertyRef Name="PROV_COD" />
+    </Key>
+    <Property Name="PROV_COD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PROV_NOMEMP" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="PROV_TELEFONO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PROV_DIRECCION" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="PROV_CORREO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PROV_VENDEDOR" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PRODUCTO_PROVEEDOR" Relationship="Self.FK_PRODUCTO_PROVEEDOR_PROVEEDOR" FromRole="PROVEEDOR" ToRole="PRODUCTO_PROVEEDOR" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="VENDEDOR">
+    <Key>
+      <PropertyRef Name="VEN_CEDULA" />
+    </Key>
+    <Property Name="VEN_CEDULA" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VEN_NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VEN_APELLIDO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VEN_COMISION" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="VEN_TELEFONO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="FACTURA" Relationship="Self.FK_FACTURA_VENDEDOR_VENDEDOR" FromRole="VENDEDOR" ToRole="FACTURA" />
+  </EntityType>
+  <Association Name="FK_PRODUCTO_BODEGA_BODEGA">
+    <End Role="BODEGA" Type="Self.BODEGA" Multiplicity="1" />
+    <End Role="PRODUCTO_BODEGA" Type="Self.PRODUCTO_BODEGA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BODEGA">
+        <PropertyRef Name="BOD_COD" />
+      </Principal>
+      <Dependent Role="PRODUCTO_BODEGA">
+        <PropertyRef Name="BOD_COD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_BODEGA_ES_BODEGA">
+    <End Role="BODEGA" Type="Self.BODEGA" Multiplicity="1" />
+    <End Role="PRODUCTO_BODEGA" Type="Self.PRODUCTO_BODEGA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BODEGA">
+        <PropertyRef Name="BOD_COD" />
+      </Principal>
+      <Dependent Role="PRODUCTO_BODEGA">
+        <PropertyRef Name="BOD_COD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FACTURA_CLIENTE_T_CLIENTE">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="CLI_CEDULA" />
+      </Principal>
+      <Dependent Role="FACTURA">
+        <PropertyRef Name="CLI_CEDULA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FACTURA_VENDEDOR_VENDEDOR">
+    <End Role="VENDEDOR" Type="Self.VENDEDOR" Multiplicity="1" />
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VENDEDOR">
+        <PropertyRef Name="VEN_CEDULA" />
+      </Principal>
+      <Dependent Role="FACTURA">
+        <PropertyRef Name="VEN_CEDULA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_FACTURA_E_FACTURA">
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="1" />
+    <End Role="PRODUCTO_FACTURA" Type="Self.PRODUCTO_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURA">
+        <PropertyRef Name="FAC_COD" />
+      </Principal>
+      <Dependent Role="PRODUCTO_FACTURA">
+        <PropertyRef Name="FAC_COD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_BODEGA_PRODUCTO">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="PRODUCTO_BODEGA" Type="Self.PRODUCTO_BODEGA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Principal>
+      <Dependent Role="PRODUCTO_BODEGA">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_FACTURA_PRODUCTO">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="PRODUCTO_FACTURA" Type="Self.PRODUCTO_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Principal>
+      <Dependent Role="PRODUCTO_FACTURA">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_PROVEEDOR_PRODUCTO">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="PRODUCTO_PROVEEDOR" Type="Self.PRODUCTO_PROVEEDOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Principal>
+      <Dependent Role="PRODUCTO_PROVEEDOR">
+        <PropertyRef Name="PROD_CODIGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_PROVEEDOR_PROVEEDOR">
+    <End Role="PROVEEDOR" Type="Self.PROVEEDOR" Multiplicity="1" />
+    <End Role="PRODUCTO_PROVEEDOR" Type="Self.PRODUCTO_PROVEEDOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROVEEDOR">
+        <PropertyRef Name="PROV_COD" />
+      </Principal>
+      <Dependent Role="PRODUCTO_PROVEEDOR">
+        <PropertyRef Name="PROV_COD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntitiesSuple" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BODEGA" EntityType="Self.BODEGA" />
+    <EntitySet Name="CLIENTE" EntityType="Self.CLIENTE" />
+    <EntitySet Name="FACTURA" EntityType="Self.FACTURA" />
+    <EntitySet Name="PRODUCTO" EntityType="Self.PRODUCTO" />
+    <EntitySet Name="PRODUCTO_BODEGA" EntityType="Self.PRODUCTO_BODEGA" />
+    <EntitySet Name="PRODUCTO_FACTURA" EntityType="Self.PRODUCTO_FACTURA" />
+    <EntitySet Name="PRODUCTO_PROVEEDOR" EntityType="Self.PRODUCTO_PROVEEDOR" />
+    <EntitySet Name="PROVEEDOR" EntityType="Self.PROVEEDOR" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="VENDEDOR" EntityType="Self.VENDEDOR" />
+    <AssociationSet Name="FK_PRODUCTO_BODEGA_BODEGA" Association="Self.FK_PRODUCTO_BODEGA_BODEGA">
+      <End Role="BODEGA" EntitySet="BODEGA" />
+      <End Role="PRODUCTO_BODEGA" EntitySet="PRODUCTO_BODEGA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_BODEGA_ES_BODEGA" Association="Self.FK_PRODUCTO_BODEGA_ES_BODEGA">
+      <End Role="BODEGA" EntitySet="BODEGA" />
+      <End Role="PRODUCTO_BODEGA" EntitySet="PRODUCTO_BODEGA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FACTURA_CLIENTE_T_CLIENTE" Association="Self.FK_FACTURA_CLIENTE_T_CLIENTE">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="FACTURA" EntitySet="FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FACTURA_VENDEDOR_VENDEDOR" Association="Self.FK_FACTURA_VENDEDOR_VENDEDOR">
+      <End Role="VENDEDOR" EntitySet="VENDEDOR" />
+      <End Role="FACTURA" EntitySet="FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_FACTURA_E_FACTURA" Association="Self.FK_PRODUCTO_FACTURA_E_FACTURA">
+      <End Role="FACTURA" EntitySet="FACTURA" />
+      <End Role="PRODUCTO_FACTURA" EntitySet="PRODUCTO_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_BODEGA_PRODUCTO" Association="Self.FK_PRODUCTO_BODEGA_PRODUCTO">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="PRODUCTO_BODEGA" EntitySet="PRODUCTO_BODEGA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_FACTURA_PRODUCTO" Association="Self.FK_PRODUCTO_FACTURA_PRODUCTO">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="PRODUCTO_FACTURA" EntitySet="PRODUCTO_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_PROVEEDOR_PRODUCTO" Association="Self.FK_PRODUCTO_PROVEEDOR_PRODUCTO">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="PRODUCTO_PROVEEDOR" EntitySet="PRODUCTO_PROVEEDOR" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_PROVEEDOR_PROVEEDOR" Association="Self.FK_PRODUCTO_PROVEEDOR_PROVEEDOR">
+      <End Role="PROVEEDOR" EntitySet="PROVEEDOR" />
+      <End Role="PRODUCTO_PROVEEDOR" EntitySet="PRODUCTO_PROVEEDOR" />
+    </AssociationSet>
+    <FunctionImport Name="GetTopVendedorPorMes" ReturnType="Collection(Model.GetTopVendedorPorMes_Result)">
+      <Parameter Name="Year" Mode="In" Type="Int32" />
+      <Parameter Name="Month" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Proc_Ganancia_Mensual" ReturnType="Collection(Model.Proc_Ganancia_Mensual_Result)">
+      <Parameter Name="Year" Mode="In" Type="Int32" />
+      <Parameter Name="Month" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Proc_Ingresos_Mes_Anio" ReturnType="Collection(Model.Proc_Ingresos_Mes_Anio_Result)" />
+    <FunctionImport Name="Proc_Inventario_Total" ReturnType="Collection(Model.Proc_Inventario_Total_Result)" />
+    <FunctionImport Name="Proc_Productos_Caducar" ReturnType="Collection(Model.Proc_Productos_Caducar_Result)" />
+    <FunctionImport Name="Proc_ProductosVendidosPorFecha" ReturnType="Collection(Model.Proc_ProductosVendidosPorFecha_Result)">
+      <Parameter Name="Year" Mode="In" Type="Int32" />
+      <Parameter Name="Month" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ProductosMasVendidos" ReturnType="Collection(Model.ProductosMasVendidos_Result)" />
+    <FunctionImport Name="ProductosMenosVendidos" ReturnType="Collection(Model.ProductosMenosVendidos_Result)" />
+    <FunctionImport Name="ProveedoresConMasVentas" ReturnType="Collection(Model.ProveedoresConMasVentas_Result)" />
+  </EntityContainer>
+  <ComplexType Name="GetTopVendedorPorMes_Result">
+    <Property Type="String" Name="VEN_CEDULA" Nullable="false" MaxLength="13" />
+    <Property Type="Int32" Name="TotalVentas" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Proc_Ganancia_Mensual_Result">
+    <Property Type="Int32" Name="Año" Nullable="true" />
+    <Property Type="Int32" Name="Mes" Nullable="true" />
+    <Property Type="Decimal" Name="TotalIngresos" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="CostoTotal" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="GananciaNeta" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Proc_Ingresos_Mes_Anio_Result">
+    <Property Type="Int32" Name="Año" Nullable="true" />
+    <Property Type="Int32" Name="Mes" Nullable="true" />
+    <Property Type="Decimal" Name="TotalIngresos" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Proc_Inventario_Total_Result">
+    <Property Type="Int32" Name="TotalCantidadProductos" Nullable="true" />
+    <Property Type="Decimal" Name="ValorTotalInventario" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Proc_Productos_Caducar_Result">
+    <Property Type="String" Name="PROD_CODIGO" Nullable="false" MaxLength="14" />
+    <Property Type="String" Name="PROD_NOMBRE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PROD_MARCA" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaCaducidad" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="MesesParaCaducar" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Proc_ProductosVendidosPorFecha_Result">
+    <Property Type="String" Name="PROD_CODIGO" Nullable="false" MaxLength="14" />
+    <Property Type="String" Name="SaleYear" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="SaleMonth" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="TotalQuantity" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ProductosMasVendidos_Result">
+    <Property Type="String" Name="PROD_CODIGO" Nullable="false" MaxLength="14" />
+    <Property Type="String" Name="PROD_NOMBRE" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="TotalUnidadesVendidas" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ProductosMenosVendidos_Result">
+    <Property Type="String" Name="PROD_CODIGO" Nullable="false" MaxLength="14" />
+    <Property Type="String" Name="PROD_NOMBRE" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="TotalUnidadesVendidas" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ProveedoresConMasVentas_Result">
+    <Property Type="String" Name="PROV_COD" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="PROV_NOMEMP" Nullable="true" MaxLength="70" />
+    <Property Type="Int32" Name="TotalUnidadesVendidas" Nullable="true" />
+  </ComplexType>
+</Schema>

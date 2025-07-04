@@ -1,0 +1,16 @@
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\Logica.dll.config
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\Logica.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\Logica.pdb
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\Acceso_Datos.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\Datos.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\EntityFramework.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\Acceso_Datos.pdb
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\Acceso_Datos.dll.config
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\Datos.pdb
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\Datos.dll.config
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\bin\Release\EntityFramework.xml
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Release\Logica.csproj.AssemblyReference.cache
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Release\Logica.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Release\Logica.csproj.Up2Date
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Release\Logica.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Logica\obj\Release\Logica.pdb

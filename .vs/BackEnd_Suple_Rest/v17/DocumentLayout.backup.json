@@ -1,0 +1,1074 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_integracion.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_integracion.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|c:\\users\\asus\\pictures\\servicios\\backend_suple_rest\\rest_suple\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_clientes.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_clientes.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\bodegascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\bodegascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\api_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\api_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_integracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\dto\\integracionsuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\dto\\integracionsuple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\dto\\dtotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\dto\\dtotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_producto_bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_producto_bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_facturas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\producto_facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\producto_facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_producto_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_producto_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_producto_proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_producto_proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_producto_bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_producto_bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_bodegas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_facturas.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_facturas.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\clasesparciales\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\clasesparciales\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\clasesparciales\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\clasesparciales\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\clasesparciales\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\clasesparciales\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\clasesparciales\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\clasesparciales\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\clasesparciales\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\clasesparciales\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\clasesparciales\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\clasesparciales\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\acceso_datos\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A992CE08-E4FB-4006-8FF0-014D37C5AAAD}|Acceso_Datos\\Acceso_Datos.csproj|solutionrelative:acceso_datos\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_bodegas.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_bodegas.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_reportes.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_reportes.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_vendedores.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_vendedores.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_proveedores.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_proveedores.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_productos.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_productos.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_producto_proveedor.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_producto_proveedor.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_producto_factura.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_producto_factura.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\webservicies_suple\\api_producto_bodega.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB4F2825-2FA7-4A19-A08D-6384E8107E28}|WebServicies_Suple\\WebServicies_Suple.csproj|solutionrelative:webservicies_suple\\api_producto_bodega.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\vendedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\vendedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\datos\\datos_vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B792F912-EDF6-4C51-A707-944C770BD851}|Datos\\Datos.csproj|solutionrelative:datos\\datos_vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\producto_proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\producto_proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_producto_proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_producto_proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\producto_bodegacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\producto_bodegacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\logica\\logica_producto_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D194F8-EBF7-4836-BE2D-75F430266C29}|Logica\\Logica.csproj|solutionrelative:logica\\logica_producto_factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\rest_suple\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0324BDBC-89B7-44B7-BABB-52839F7C5503}|Rest_Suple\\Rest_Suple.csproj|solutionrelative:rest_suple\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Web.config",
+              "RelativeDocumentMoniker": "Rest_Suple\\Web.config",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Web.config",
+              "RelativeToolTip": "Rest_Suple\\Web.config",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABYAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-30T20:23:52.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "API_Integracion.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Integracion.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Integracion.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Integracion.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Integracion.asmx.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:55:29.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Datos_Facturas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Facturas.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Facturas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Facturas.cs",
+              "RelativeToolTip": "Datos\\Datos_Facturas.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAArwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:56:31.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\FacturasController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:00:48.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Datos_Integracion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Integracion.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Integracion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Integracion.cs",
+              "RelativeToolTip": "Datos\\Datos_Integracion.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAqwGIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:24:40.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwCoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T21:08:35.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Datos_Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Clientes.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Clientes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Clientes.cs",
+              "RelativeToolTip": "Datos\\Datos_Clientes.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T21:06:53.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "API_Clientes.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Clientes.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Clientes.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Clientes.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Clientes.asmx.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:34:33.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IntegracionController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\IntegracionController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\IntegracionController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\IntegracionController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\IntegracionController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:29:08.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.Config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\App.Config",
+              "RelativeDocumentMoniker": "Acceso_Datos\\App.Config",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\App.Config",
+              "RelativeToolTip": "Acceso_Datos\\App.Config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-03T14:43:02.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Logica_Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Clientes.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Clientes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Clientes.cs",
+              "RelativeToolTip": "Logica\\Logica_Clientes.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T21:07:32.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BodegasController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\BodegasController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\BodegasController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\BodegasController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\BodegasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:23:47.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "API_Integracion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\API_Integracion.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\API_Integracion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\API_Integracion.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\API_Integracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:25:18.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DTOTest.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\DTO\\DTOTest.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\DTO\\DTOTest.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\DTO\\DTOTest.cs",
+              "RelativeToolTip": "Acceso_Datos\\DTO\\DTOTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:01:16.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Logica_Integracion.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Integracion.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Integracion.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Integracion.cs",
+              "RelativeToolTip": "Logica\\Logica_Integracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:51:17.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IntegracionSuple.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\DTO\\IntegracionSuple.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\DTO\\IntegracionSuple.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\DTO\\IntegracionSuple.cs",
+              "RelativeToolTip": "Acceso_Datos\\DTO\\IntegracionSuple.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:20:28.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:57:48.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Logica_Bodegas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Bodegas.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Bodegas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Bodegas.cs",
+              "RelativeToolTip": "Logica\\Logica_Bodegas.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:00:13.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\ReportesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\ReportesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:37:28.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Datos_Reportes.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Reportes.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Reportes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Reportes.cs",
+              "RelativeToolTip": "Datos\\Datos_Reportes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:26:07.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Logica_Facturas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Facturas.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Facturas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Facturas.cs",
+              "RelativeToolTip": "Logica\\Logica_Facturas.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:57:10.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Logica_Producto_Bodega.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Producto_Bodega.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Producto_Bodega.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Producto_Bodega.cs",
+              "RelativeToolTip": "Logica\\Logica_Producto_Bodega.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:29:56.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\Web.config",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\Web.config",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\Web.config",
+              "RelativeToolTip": "WebServicies_Suple\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACGAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-01T20:48:03.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Datos_Proveedores.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Proveedores.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Proveedores.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Proveedores.cs",
+              "RelativeToolTip": "Datos\\Datos_Proveedores.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwE8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:06:32.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Datos_Producto_Factura.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Producto_Factura.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Producto_Factura.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Producto_Factura.cs",
+              "RelativeToolTip": "Datos\\Datos_Producto_Factura.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:42:32.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Producto_FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\Producto_FacturaController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\Producto_FacturaController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\Producto_FacturaController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\Producto_FacturaController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:44:31.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Datos_Productos.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Productos.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Productos.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Productos.cs",
+              "RelativeToolTip": "Datos\\Datos_Productos.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv1kAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:51:20.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Datos_Producto_Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Producto_Proveedor.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Producto_Proveedor.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Producto_Proveedor.cs",
+              "RelativeToolTip": "Datos\\Datos_Producto_Proveedor.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADwv08AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:22:43.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Datos_Producto_Bodega.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Producto_Bodega.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Producto_Bodega.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Producto_Bodega.cs",
+              "RelativeToolTip": "Datos\\Datos_Producto_Bodega.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA9wCgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:29:15.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Datos_Bodegas.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Bodegas.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Bodegas.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Bodegas.cs",
+              "RelativeToolTip": "Datos\\Datos_Bodegas.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAADwv00AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:59:21.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "API_Facturas.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Facturas.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Facturas.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Facturas.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Facturas.asmx.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwEQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:35:08.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CLIENTE.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\CLIENTE.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\ClasesParciales\\CLIENTE.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\CLIENTE.cs",
+              "RelativeToolTip": "Acceso_Datos\\ClasesParciales\\CLIENTE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:32:09.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PRODUCTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\PRODUCTO.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\ClasesParciales\\PRODUCTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\PRODUCTO.cs",
+              "RelativeToolTip": "Acceso_Datos\\ClasesParciales\\PRODUCTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:53:30.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "VENDEDOR.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\VENDEDOR.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\VENDEDOR.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\VENDEDOR.cs",
+              "RelativeToolTip": "Acceso_Datos\\VENDEDOR.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:56:35.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FACTURA.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\FACTURA.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\FACTURA.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\FACTURA.cs",
+              "RelativeToolTip": "Acceso_Datos\\FACTURA.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:52:32.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "VENDEDOR.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\VENDEDOR.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\ClasesParciales\\VENDEDOR.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\VENDEDOR.cs",
+              "RelativeToolTip": "Acceso_Datos\\ClasesParciales\\VENDEDOR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:56:19.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BODEGA.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\BODEGA.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\ClasesParciales\\BODEGA.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\BODEGA.cs",
+              "RelativeToolTip": "Acceso_Datos\\ClasesParciales\\BODEGA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:31:17.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FACTURA.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\FACTURA.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\ClasesParciales\\FACTURA.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\FACTURA.cs",
+              "RelativeToolTip": "Acceso_Datos\\ClasesParciales\\FACTURA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:51:38.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PROVEEDOR.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\PROVEEDOR.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\ClasesParciales\\PROVEEDOR.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\ClasesParciales\\PROVEEDOR.cs",
+              "RelativeToolTip": "Acceso_Datos\\ClasesParciales\\PROVEEDOR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:55:02.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PROVEEDOR.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\PROVEEDOR.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\PROVEEDOR.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\PROVEEDOR.cs",
+              "RelativeToolTip": "Acceso_Datos\\PROVEEDOR.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:55:19.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PRODUCTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\PRODUCTO.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\PRODUCTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\PRODUCTO.cs",
+              "RelativeToolTip": "Acceso_Datos\\PRODUCTO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:53:50.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CLIENTE.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\CLIENTE.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\CLIENTE.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\CLIENTE.cs",
+              "RelativeToolTip": "Acceso_Datos\\CLIENTE.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:32:15.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BODEGA.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\BODEGA.cs",
+              "RelativeDocumentMoniker": "Acceso_Datos\\BODEGA.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\BODEGA.cs",
+              "RelativeToolTip": "Acceso_Datos\\BODEGA.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:30:39.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\Model1.edmx",
+              "RelativeDocumentMoniker": "Acceso_Datos\\Model1.edmx",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Acceso_Datos\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Acceso_Datos\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-30T19:24:44.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "API_Bodegas.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Bodegas.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Bodegas.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Bodegas.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Bodegas.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:33:04.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "API_Vendedores.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Vendedores.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Vendedores.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Vendedores.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Vendedores.asmx.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:41:36.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "API_Reportes.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Reportes.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Reportes.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Reportes.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Reportes.asmx.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:42:22.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Logica_Reportes.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Reportes.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Reportes.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Reportes.cs",
+              "RelativeToolTip": "Logica\\Logica_Reportes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:36:20.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "API_Proveedores.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Proveedores.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Proveedores.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Proveedores.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Proveedores.asmx.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADwv0gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:41:03.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "API_Productos.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Productos.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Productos.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Productos.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Productos.asmx.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:40:09.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "API_Producto_Proveedor.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Producto_Proveedor.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Producto_Proveedor.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Producto_Proveedor.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Producto_Proveedor.asmx.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA0wD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:39:37.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "API_Producto_Factura.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Producto_Factura.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Producto_Factura.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Producto_Factura.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Producto_Factura.asmx.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:38:59.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "API_Producto_Bodega.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Producto_Bodega.asmx.cs",
+              "RelativeDocumentMoniker": "WebServicies_Suple\\API_Producto_Bodega.asmx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\WebServicies_Suple\\API_Producto_Bodega.asmx.cs",
+              "RelativeToolTip": "WebServicies_Suple\\API_Producto_Bodega.asmx.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:38:23.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Logica_Vendedores.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Vendedores.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Vendedores.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Vendedores.cs",
+              "RelativeToolTip": "Logica\\Logica_Vendedores.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA5wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:10:24.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Datos_Vendedores.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Vendedores.cs",
+              "RelativeDocumentMoniker": "Datos\\Datos_Vendedores.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Datos\\Datos_Vendedores.cs",
+              "RelativeToolTip": "Datos\\Datos_Vendedores.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADwv1AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:08:47.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ProveedoresController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\ProveedoresController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\ProveedoresController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\ProveedoresController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\ProveedoresController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:10:26.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "VendedoresController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\VendedoresController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\VendedoresController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\VendedoresController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\VendedoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:11:16.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Producto_ProveedorController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\Producto_ProveedorController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\Producto_ProveedorController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\Producto_ProveedorController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\Producto_ProveedorController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAhwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:24:06.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Logica_Proveedores.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Proveedores.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Proveedores.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Proveedores.cs",
+              "RelativeToolTip": "Logica\\Logica_Proveedores.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:06:50.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Logica_Producto_Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Producto_Proveedor.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Producto_Proveedor.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Producto_Proveedor.cs",
+              "RelativeToolTip": "Logica\\Logica_Producto_Proveedor.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA9wDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:23:20.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Logica_Productos.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Productos.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Productos.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Productos.cs",
+              "RelativeToolTip": "Logica\\Logica_Productos.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:52:04.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Logica_Producto_Factura.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Producto_Factura.cs",
+              "RelativeDocumentMoniker": "Logica\\Logica_Producto_Factura.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Logica\\Logica_Producto_Factura.cs",
+              "RelativeToolTip": "Logica\\Logica_Producto_Factura.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:43:32.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Producto_BodegaController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\Producto_BodegaController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\Producto_BodegaController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\Producto_BodegaController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\Producto_BodegaController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:30:59.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Rest_Suple\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:27:29.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "Rest_Suple\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Pictures\\SERVICIOS\\BackEnd_Suple_Rest\\Rest_Suple\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "Rest_Suple\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:38:27.091Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

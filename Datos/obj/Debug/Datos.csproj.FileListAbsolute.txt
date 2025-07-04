@@ -1,0 +1,13 @@
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\bin\Debug\Datos.dll.config
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\bin\Debug\Datos.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\bin\Debug\Datos.pdb
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\bin\Debug\Acceso_Datos.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\bin\Debug\Acceso_Datos.pdb
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\bin\Debug\Acceso_Datos.dll.config
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\obj\Debug\Datos.csproj.Up2Date
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\obj\Debug\Datos.dll
+C:\Users\ASUS\Pictures\SERVICIOS\BackEnd_Suple_Rest\Datos\obj\Debug\Datos.pdb
